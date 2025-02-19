@@ -14,3 +14,22 @@ Summary Statistics:
  Mean   :6.408   Mean   :5.779  
  3rd Qu.:7.218   3rd Qu.:6.688  
  Max.   :8.430   Max.   :7.670  
+
+
+Normality Assessment:
+
+The Shapiro-Wilk test results show p-values of 0.967 (Before) and 0.918 (After), both well above 0.05, indicating we cannot reject the null hypothesis of normality for either distribution
+The Q-Q plots for both Before and After measurements show points falling fairly close to the diagonal line, supporting the normality assumption
+The histograms with overlaid normal curves also suggest roughly normal distributions for both measurements
+
+Correlation Analysis:
+
+There is a very strong positive correlation between Before and After measurements (r ≈ 0.991)
+The extremely low p-value (2.32e-15) indicates this correlation is highly statistically significant
+The scatter plot shows a clear linear relationship between Before and After measurements, with points closely following the regression line
+
+Effect of Treatment:
+
+The mean cholesterol level decreased from 6.408 mmol/L to 5.779 mmol/L
+The range of values narrowed: Before (3.91-8.43 mmol/L) to After (3.66-7.67 mmol/L)
+The consistent pattern in the scatter plot suggests the treatment had a fairly uniform effect across different initial cholesterol levels
